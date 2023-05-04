@@ -1,5 +1,5 @@
-import Header from '../common/Header';
-import Footer from '../common/Footer';
+import Header from '../includes/Header';
+import Footer from '../includes/Footer';
 import React from 'react';
 
 export default function UserLayout({ children }) {

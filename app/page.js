@@ -1,15 +1,15 @@
 'use client';
 
 import Head from 'next/head';
-import LanguageSelector from './components/LanguageSelector';
-import Layout from './components/layouts/Layout';
+import LanguageSelector from './components/common/LanguageSelector';
+import UserLayout from './components/layouts/UserLayout';
 import NextNProgress from 'nextjs-progressbar'
+
 
 export default function Home({ Component, pageProps }) {
   return (
     <>
-
-      <Layout>
+    <UserLayout>
         <NextNProgress
           color="#30ff8d"
           startPosition={0.3}
@@ -49,7 +49,7 @@ export default function Home({ Component, pageProps }) {
             </div>
           </div>
         </div>
-      </Layout>
+      </UserLayout>
 
     </>
   );
